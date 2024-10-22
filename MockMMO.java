@@ -4,7 +4,7 @@ class MockMMO {
         demo1();
         System.out.println("\n-----Demo2-----\n");
         demo2();
-        System.out.println("\n-----Demo1-----\n");
+        System.out.println("\n-----Demo3-----\n");
         demo3();
     }
 
