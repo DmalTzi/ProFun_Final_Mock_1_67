@@ -120,6 +120,7 @@ class MockMMO {
 
         pig.sayMyName();
         pig.killed();
+        pig.killed();
         System.out.println(pig);
         System.out.println();
 

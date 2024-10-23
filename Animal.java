@@ -50,7 +50,7 @@ public class Animal {
 
     void killed() {
         if (isDeath) {
-            System.out.println("It's already death!!");
+            System.out.println(name + " is already death!!");
         }else {
             isDeath = true;
             System.out.println("" + name + " is Death.");
