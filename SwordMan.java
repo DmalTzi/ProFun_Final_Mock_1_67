@@ -15,7 +15,7 @@ class SwordMan {
     }
 
     void saySignatureQuote() {
-        if(signatureQuote != null){
+        if(signatureQuote == null){
             System.out.println("I can't say");
             return;
         }
@@ -64,7 +64,7 @@ class SwordMan {
             System.out.println("Your HP reamain is " + HP);
             return;
         }else if(animal.getIsDeath()){
-            System.out.println(animal.getName() + " is already.");
+            System.out.println(animal.getName() + " is already death.");
             return;
         }
         System.out.println(name + " kill " + animal.getName() + " and get " + animal.getLevel() + " Lv.");

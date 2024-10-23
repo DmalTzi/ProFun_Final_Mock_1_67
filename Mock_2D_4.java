@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Mock_2D_1 {
+class Mock_2D_4 {
     public static void main(String[] Suntana) {
         Scanner scan = new Scanner(System.in);
         int n = scan.nextInt();
