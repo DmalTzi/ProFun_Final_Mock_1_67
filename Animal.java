@@ -58,6 +58,6 @@ public class Animal {
     }
 
     public String toString() {
-        return "Level is " + Level + " (" + name + ") " + "Attack is " + Attack + " HP is " + HP + " Still alive " + isDeath;
+        return "Level is " + Level + " (" + name + ") " + "Attack is " + Attack + " HP is " + HP + " Still alive " + !isDeath;
     }
 }
